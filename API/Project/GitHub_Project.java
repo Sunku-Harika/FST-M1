@@ -29,7 +29,7 @@ String jsonBody = "{\n" +
    requestSpec = new RequestSpecBuilder()
 		                .setBaseUri("https://api.github.com/user/keys")
 		                .addHeader("Content-Type", "application/json")
-		                .addHeader("Authorization", "Bearer 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")
+		                .addHeader("Authorization", "Bearer ghp_............")
 		                .build();
 		    }
 	
@@ -79,3 +79,4 @@ String jsonBody = "{\n" +
 	
 
 }
+
